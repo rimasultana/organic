@@ -1,4 +1,5 @@
 import aboutImage from "../assets/images/about.jpg";
+import tomatoImage from "../assets/images/call.jpg";
 export default function Caragory() {
   return (
     <>
@@ -66,11 +67,28 @@ export default function Caragory() {
               officia reprehenderit dolore repellat maxime quod ullam natus sunt
               mollitia iste, cum veritatis tenetur?
             </p>
-            <button className="btn bg-lime-600 px-8 font-bold text-white">Find Out More</button>
+            <button className="btn bg-lime-600 px-8 font-bold text-white">
+              Find Out More
+            </button>
           </div>
           <div className="flex-1">
             <img className="" src={aboutImage} alt="" />
           </div>
+        </div>
+      </section>
+      <section
+        style={{ backgroundImage: `url(${tomatoImage})` }}
+        className="bg-no-repeat bg-cover bg-center  "
+      >
+        <div className="w-3/6 mx-auto py-40 text-center text-white space-y-5">
+          <h2 className="text-5xl font-bold">Insert A Call To Action</h2>
+          <p className="text-lg">
+            Think of What you want visitors to do next. Maybe they should
+            contact you?
+          </p>
+          <button className="border-[1px] border-white p-4">
+            Get in Touch
+          </button>
         </div>
       </section>
     </>
