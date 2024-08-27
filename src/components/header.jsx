@@ -120,6 +120,5 @@ export default function Header() {
         </div>
       </section>
     </header>
-
   );
 }
