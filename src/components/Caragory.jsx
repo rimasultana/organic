@@ -150,6 +150,7 @@ export default function Caragory() {
           </div>
         </div>
       </section>
+
     </>
   );
 }
